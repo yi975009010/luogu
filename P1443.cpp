@@ -2,6 +2,9 @@
 
 using namespace std;
 
+/*
+ * 马的遍历——AC
+ * */
 const int N=410,M=410;
 int G[N][N];
 bool vis[N][N];

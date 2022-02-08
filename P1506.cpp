@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
+/*
+ * 	拯救oibh总部——AC
+ * */
 const int N=510;
 char G[N][N];
 bool vis[N][N];

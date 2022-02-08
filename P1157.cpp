@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
+/*
+ * 组合数——AC
+ * */
 const int N=25;
 int n,r;
 int path[N];

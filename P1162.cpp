@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
+/*
+ * 填涂颜色——AC
+ * */
 const int N=35;
 int G[N][N];
 int n;

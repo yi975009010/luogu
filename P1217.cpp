@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+ * 回文质数——88分  待修改
+ * */
 typedef long long ll;
 const int N=1e8+50;
 bool is_prime[N];

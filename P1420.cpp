@@ -2,7 +2,9 @@
 using namespace std;
 const int N=1e4+10;
 int a[N];
-
+/*
+ * 最长连号——错误   需要修改
+ * */
 int main(){
     ios::sync_with_stdio(false);
     cin.tie(0);

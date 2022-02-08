@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+ * 八皇后问题  ——AC
+ * */
 int n,res=0;
 const int N=20;
 int G[N][N];
