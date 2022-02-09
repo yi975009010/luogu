@@ -453,6 +453,19 @@ P1807/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1807.dir\build.make CMakeFiles/P1807.dir/build
 .PHONY : P1807/fast
 
+#=============================================================================
+# Target rules for targets named P1143
+
+# Build rule for target.
+P1143: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1143
+.PHONY : P1143
+
+# fast build rule for target.
+P1143/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1143.dir\build.make CMakeFiles/P1143.dir/build
+.PHONY : P1143/fast
+
 Acwing799.obj: Acwing799.cpp.obj
 .PHONY : Acwing799.obj
 
@@ -476,6 +489,30 @@ Acwing799.s: Acwing799.cpp.s
 Acwing799.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing799.dir\build.make CMakeFiles/Acwing799.dir/Acwing799.cpp.s
 .PHONY : Acwing799.cpp.s
+
+P1143.obj: P1143.cpp.obj
+.PHONY : P1143.obj
+
+# target to build an object file
+P1143.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1143.dir\build.make CMakeFiles/P1143.dir/P1143.cpp.obj
+.PHONY : P1143.cpp.obj
+
+P1143.i: P1143.cpp.i
+.PHONY : P1143.i
+
+# target to preprocess a source file
+P1143.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1143.dir\build.make CMakeFiles/P1143.dir/P1143.cpp.i
+.PHONY : P1143.cpp.i
+
+P1143.s: P1143.cpp.s
+.PHONY : P1143.s
+
+# target to generate assembly for a file
+P1143.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1143.dir\build.make CMakeFiles/P1143.dir/P1143.cpp.s
+.PHONY : P1143.cpp.s
 
 P1157.obj: P1157.cpp.obj
 .PHONY : P1157.obj
@@ -1086,6 +1123,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Acwing799
+	@echo ... P1143
 	@echo ... P1157
 	@echo ... P1162
 	@echo ... P1217
@@ -1114,6 +1152,9 @@ help:
 	@echo ... Acwing799.obj
 	@echo ... Acwing799.i
 	@echo ... Acwing799.s
+	@echo ... P1143.obj
+	@echo ... P1143.i
+	@echo ... P1143.s
 	@echo ... P1157.obj
 	@echo ... P1157.i
 	@echo ... P1157.s
