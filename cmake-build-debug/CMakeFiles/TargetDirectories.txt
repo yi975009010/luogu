@@ -27,4 +27,5 @@ C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/CMakeFiles
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/CMakeFiles/P5318.dir
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/CMakeFiles/P1807.dir
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/CMakeFiles/P1143.dir
+C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/CMakeFiles/P4387.dir
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -479,6 +479,19 @@ P1143/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1143.dir\build.make CMakeFiles/P1143.dir/build
 .PHONY : P1143/fast
 
+#=============================================================================
+# Target rules for targets named P4387
+
+# Build rule for target.
+P4387: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P4387
+.PHONY : P4387
+
+# fast build rule for target.
+P4387/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P4387.dir\build.make CMakeFiles/P4387.dir/build
+.PHONY : P4387/fast
+
 Acwing799.obj: Acwing799.cpp.obj
 .PHONY : Acwing799.obj
 
@@ -1031,6 +1044,30 @@ P3916.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3916.dir\build.make CMakeFiles/P3916.dir/P3916.cpp.s
 .PHONY : P3916.cpp.s
 
+P4387.obj: P4387.cpp.obj
+.PHONY : P4387.obj
+
+# target to build an object file
+P4387.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P4387.dir\build.make CMakeFiles/P4387.dir/P4387.cpp.obj
+.PHONY : P4387.cpp.obj
+
+P4387.i: P4387.cpp.i
+.PHONY : P4387.i
+
+# target to preprocess a source file
+P4387.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P4387.dir\build.make CMakeFiles/P4387.dir/P4387.cpp.i
+.PHONY : P4387.cpp.i
+
+P4387.s: P4387.cpp.s
+.PHONY : P4387.s
+
+# target to generate assembly for a file
+P4387.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P4387.dir\build.make CMakeFiles/P4387.dir/P4387.cpp.s
+.PHONY : P4387.cpp.s
+
 P4552.obj: P4552.cpp.obj
 .PHONY : P4552.obj
 
@@ -1182,6 +1219,7 @@ help:
 	@echo ... P2911
 	@echo ... P3150
 	@echo ... P3916
+	@echo ... P4387
 	@echo ... P4552
 	@echo ... P5318
 	@echo ... P5707
@@ -1256,6 +1294,9 @@ help:
 	@echo ... P3916.obj
 	@echo ... P3916.i
 	@echo ... P3916.s
+	@echo ... P4387.obj
+	@echo ... P4387.i
+	@echo ... P4387.s
 	@echo ... P4552.obj
 	@echo ... P4552.i
 	@echo ... P4552.s
