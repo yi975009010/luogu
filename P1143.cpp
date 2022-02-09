@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 /**
- * 进制转换——
+ * 进制转换——AC
  *
  */
 using namespace std;
