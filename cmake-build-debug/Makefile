@@ -142,6 +142,19 @@ P2249/fast:
 .PHONY : P2249/fast
 
 #=============================================================================
+# Target rules for targets named P1866
+
+# Build rule for target.
+P1866: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1866
+.PHONY : P1866
+
+# fast build rule for target.
+P1866/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1866.dir\build.make CMakeFiles/P1866.dir/build
+.PHONY : P1866/fast
+
+#=============================================================================
 # Target rules for targets named P5707
 
 # Build rule for target.
@@ -730,6 +743,30 @@ P1807.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1807.dir\build.make CMakeFiles/P1807.dir/P1807.cpp.s
 .PHONY : P1807.cpp.s
 
+P1866.obj: P1866.cpp.obj
+.PHONY : P1866.obj
+
+# target to build an object file
+P1866.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1866.dir\build.make CMakeFiles/P1866.dir/P1866.cpp.obj
+.PHONY : P1866.cpp.obj
+
+P1866.i: P1866.cpp.i
+.PHONY : P1866.i
+
+# target to preprocess a source file
+P1866.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1866.dir\build.make CMakeFiles/P1866.dir/P1866.cpp.i
+.PHONY : P1866.cpp.i
+
+P1866.s: P1866.cpp.s
+.PHONY : P1866.s
+
+# target to generate assembly for a file
+P1866.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1866.dir\build.make CMakeFiles/P1866.dir/P1866.cpp.s
+.PHONY : P1866.cpp.s
+
 P1909.obj: P1909.cpp.obj
 .PHONY : P1909.obj
 
@@ -1133,6 +1170,7 @@ help:
 	@echo ... P1506
 	@echo ... P1554
 	@echo ... P1807
+	@echo ... P1866
 	@echo ... P1909
 	@echo ... P1957
 	@echo ... P2043
@@ -1182,6 +1220,9 @@ help:
 	@echo ... P1807.obj
 	@echo ... P1807.i
 	@echo ... P1807.s
+	@echo ... P1866.obj
+	@echo ... P1866.i
+	@echo ... P1866.s
 	@echo ... P1909.obj
 	@echo ... P1909.i
 	@echo ... P1909.s
