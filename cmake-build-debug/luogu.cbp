@@ -1539,6 +1539,48 @@
 					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="P1085">
+				<Option output="C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/P1085.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1085"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1085/fast">
+				<Option output="C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/P1085.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1085/fast"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug"/>
 				<Option type="4"/>
@@ -1586,9 +1628,6 @@
 		<Unit filename="C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/P1866.cpp">
 			<Option target="P1866"/>
 		</Unit>
-		<Unit filename="C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/P1909.cpp">
-			<Option target="P1909"/>
-		</Unit>
 		<Unit filename="C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/P1957.cpp">
 			<Option target="P1957"/>
 		</Unit>
@@ -1633,6 +1672,12 @@
 		</Unit>
 		<Unit filename="C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/P5729.cpp">
 			<Option target="P5729"/>
+		</Unit>
+		<Unit filename="C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/ife/P1085.cpp">
+			<Option target="P1085"/>
+		</Unit>
+		<Unit filename="C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/ife/P1909.cpp">
+			<Option target="P1909"/>
 		</Unit>
 		<Unit filename="C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/ife/P5710.cpp">
 			<Option target="P5710"/>
