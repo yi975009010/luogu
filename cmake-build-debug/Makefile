@@ -233,6 +233,19 @@ P2367/fast:
 .PHONY : P2367/fast
 
 #=============================================================================
+# Target rules for targets named P5715
+
+# Build rule for target.
+P5715: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5715
+.PHONY : P5715
+
+# fast build rule for target.
+P5715/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5715.dir\build.make CMakeFiles/P5715.dir/build
+.PHONY : P5715/fast
+
+#=============================================================================
 # Target rules for targets named Acwing799
 
 # Build rule for target.
@@ -467,6 +480,19 @@ P1807/fast:
 .PHONY : P1807/fast
 
 #=============================================================================
+# Target rules for targets named P5712
+
+# Build rule for target.
+P5712: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5712
+.PHONY : P5712
+
+# fast build rule for target.
+P5712/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5712.dir\build.make CMakeFiles/P5712.dir/build
+.PHONY : P5712/fast
+
+#=============================================================================
 # Target rules for targets named P1143
 
 # Build rule for target.
@@ -491,6 +517,71 @@ P4387: cmake_check_build_system
 P4387/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P4387.dir\build.make CMakeFiles/P4387.dir/build
 .PHONY : P4387/fast
+
+#=============================================================================
+# Target rules for targets named P5710
+
+# Build rule for target.
+P5710: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5710
+.PHONY : P5710
+
+# fast build rule for target.
+P5710/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5710.dir\build.make CMakeFiles/P5710.dir/build
+.PHONY : P5710/fast
+
+#=============================================================================
+# Target rules for targets named P5711
+
+# Build rule for target.
+P5711: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5711
+.PHONY : P5711
+
+# fast build rule for target.
+P5711/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5711.dir\build.make CMakeFiles/P5711.dir/build
+.PHONY : P5711/fast
+
+#=============================================================================
+# Target rules for targets named P5713
+
+# Build rule for target.
+P5713: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5713
+.PHONY : P5713
+
+# fast build rule for target.
+P5713/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5713.dir\build.make CMakeFiles/P5713.dir/build
+.PHONY : P5713/fast
+
+#=============================================================================
+# Target rules for targets named P5714
+
+# Build rule for target.
+P5714: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5714
+.PHONY : P5714
+
+# fast build rule for target.
+P5714/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5714.dir\build.make CMakeFiles/P5714.dir/build
+.PHONY : P5714/fast
+
+#=============================================================================
+# Target rules for targets named P5716
+
+# Build rule for target.
+P5716: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5716
+.PHONY : P5716
+
+# fast build rule for target.
+P5716/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5716.dir\build.make CMakeFiles/P5716.dir/build
+.PHONY : P5716/fast
 
 Acwing799.obj: Acwing799.cpp.obj
 .PHONY : Acwing799.obj
@@ -1164,6 +1255,174 @@ P5729.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5729.dir\build.make CMakeFiles/P5729.dir/P5729.cpp.s
 .PHONY : P5729.cpp.s
 
+ife/P5710.obj: ife/P5710.cpp.obj
+.PHONY : ife/P5710.obj
+
+# target to build an object file
+ife/P5710.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5710.dir\build.make CMakeFiles/P5710.dir/ife/P5710.cpp.obj
+.PHONY : ife/P5710.cpp.obj
+
+ife/P5710.i: ife/P5710.cpp.i
+.PHONY : ife/P5710.i
+
+# target to preprocess a source file
+ife/P5710.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5710.dir\build.make CMakeFiles/P5710.dir/ife/P5710.cpp.i
+.PHONY : ife/P5710.cpp.i
+
+ife/P5710.s: ife/P5710.cpp.s
+.PHONY : ife/P5710.s
+
+# target to generate assembly for a file
+ife/P5710.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5710.dir\build.make CMakeFiles/P5710.dir/ife/P5710.cpp.s
+.PHONY : ife/P5710.cpp.s
+
+ife/P5711.obj: ife/P5711.cpp.obj
+.PHONY : ife/P5711.obj
+
+# target to build an object file
+ife/P5711.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5711.dir\build.make CMakeFiles/P5711.dir/ife/P5711.cpp.obj
+.PHONY : ife/P5711.cpp.obj
+
+ife/P5711.i: ife/P5711.cpp.i
+.PHONY : ife/P5711.i
+
+# target to preprocess a source file
+ife/P5711.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5711.dir\build.make CMakeFiles/P5711.dir/ife/P5711.cpp.i
+.PHONY : ife/P5711.cpp.i
+
+ife/P5711.s: ife/P5711.cpp.s
+.PHONY : ife/P5711.s
+
+# target to generate assembly for a file
+ife/P5711.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5711.dir\build.make CMakeFiles/P5711.dir/ife/P5711.cpp.s
+.PHONY : ife/P5711.cpp.s
+
+ife/P5712.obj: ife/P5712.cpp.obj
+.PHONY : ife/P5712.obj
+
+# target to build an object file
+ife/P5712.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5712.dir\build.make CMakeFiles/P5712.dir/ife/P5712.cpp.obj
+.PHONY : ife/P5712.cpp.obj
+
+ife/P5712.i: ife/P5712.cpp.i
+.PHONY : ife/P5712.i
+
+# target to preprocess a source file
+ife/P5712.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5712.dir\build.make CMakeFiles/P5712.dir/ife/P5712.cpp.i
+.PHONY : ife/P5712.cpp.i
+
+ife/P5712.s: ife/P5712.cpp.s
+.PHONY : ife/P5712.s
+
+# target to generate assembly for a file
+ife/P5712.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5712.dir\build.make CMakeFiles/P5712.dir/ife/P5712.cpp.s
+.PHONY : ife/P5712.cpp.s
+
+ife/P5713.obj: ife/P5713.cpp.obj
+.PHONY : ife/P5713.obj
+
+# target to build an object file
+ife/P5713.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5713.dir\build.make CMakeFiles/P5713.dir/ife/P5713.cpp.obj
+.PHONY : ife/P5713.cpp.obj
+
+ife/P5713.i: ife/P5713.cpp.i
+.PHONY : ife/P5713.i
+
+# target to preprocess a source file
+ife/P5713.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5713.dir\build.make CMakeFiles/P5713.dir/ife/P5713.cpp.i
+.PHONY : ife/P5713.cpp.i
+
+ife/P5713.s: ife/P5713.cpp.s
+.PHONY : ife/P5713.s
+
+# target to generate assembly for a file
+ife/P5713.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5713.dir\build.make CMakeFiles/P5713.dir/ife/P5713.cpp.s
+.PHONY : ife/P5713.cpp.s
+
+ife/P5714.obj: ife/P5714.cpp.obj
+.PHONY : ife/P5714.obj
+
+# target to build an object file
+ife/P5714.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5714.dir\build.make CMakeFiles/P5714.dir/ife/P5714.cpp.obj
+.PHONY : ife/P5714.cpp.obj
+
+ife/P5714.i: ife/P5714.cpp.i
+.PHONY : ife/P5714.i
+
+# target to preprocess a source file
+ife/P5714.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5714.dir\build.make CMakeFiles/P5714.dir/ife/P5714.cpp.i
+.PHONY : ife/P5714.cpp.i
+
+ife/P5714.s: ife/P5714.cpp.s
+.PHONY : ife/P5714.s
+
+# target to generate assembly for a file
+ife/P5714.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5714.dir\build.make CMakeFiles/P5714.dir/ife/P5714.cpp.s
+.PHONY : ife/P5714.cpp.s
+
+ife/P5715.obj: ife/P5715.cpp.obj
+.PHONY : ife/P5715.obj
+
+# target to build an object file
+ife/P5715.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5715.dir\build.make CMakeFiles/P5715.dir/ife/P5715.cpp.obj
+.PHONY : ife/P5715.cpp.obj
+
+ife/P5715.i: ife/P5715.cpp.i
+.PHONY : ife/P5715.i
+
+# target to preprocess a source file
+ife/P5715.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5715.dir\build.make CMakeFiles/P5715.dir/ife/P5715.cpp.i
+.PHONY : ife/P5715.cpp.i
+
+ife/P5715.s: ife/P5715.cpp.s
+.PHONY : ife/P5715.s
+
+# target to generate assembly for a file
+ife/P5715.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5715.dir\build.make CMakeFiles/P5715.dir/ife/P5715.cpp.s
+.PHONY : ife/P5715.cpp.s
+
+ife/P5716.obj: ife/P5716.cpp.obj
+.PHONY : ife/P5716.obj
+
+# target to build an object file
+ife/P5716.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5716.dir\build.make CMakeFiles/P5716.dir/ife/P5716.cpp.obj
+.PHONY : ife/P5716.cpp.obj
+
+ife/P5716.i: ife/P5716.cpp.i
+.PHONY : ife/P5716.i
+
+# target to preprocess a source file
+ife/P5716.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5716.dir\build.make CMakeFiles/P5716.dir/ife/P5716.cpp.i
+.PHONY : ife/P5716.cpp.i
+
+ife/P5716.s: ife/P5716.cpp.s
+.PHONY : ife/P5716.s
+
+# target to generate assembly for a file
+ife/P5716.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5716.dir\build.make CMakeFiles/P5716.dir/ife/P5716.cpp.s
+.PHONY : ife/P5716.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1223,6 +1482,13 @@ help:
 	@echo ... P4552
 	@echo ... P5318
 	@echo ... P5707
+	@echo ... P5710
+	@echo ... P5711
+	@echo ... P5712
+	@echo ... P5713
+	@echo ... P5714
+	@echo ... P5715
+	@echo ... P5716
 	@echo ... P5729
 	@echo ... main
 	@echo ... Acwing799.obj
@@ -1309,6 +1575,27 @@ help:
 	@echo ... P5729.obj
 	@echo ... P5729.i
 	@echo ... P5729.s
+	@echo ... ife/P5710.obj
+	@echo ... ife/P5710.i
+	@echo ... ife/P5710.s
+	@echo ... ife/P5711.obj
+	@echo ... ife/P5711.i
+	@echo ... ife/P5711.s
+	@echo ... ife/P5712.obj
+	@echo ... ife/P5712.i
+	@echo ... ife/P5712.s
+	@echo ... ife/P5713.obj
+	@echo ... ife/P5713.i
+	@echo ... ife/P5713.s
+	@echo ... ife/P5714.obj
+	@echo ... ife/P5714.i
+	@echo ... ife/P5714.s
+	@echo ... ife/P5715.obj
+	@echo ... ife/P5715.i
+	@echo ... ife/P5715.s
+	@echo ... ife/P5716.obj
+	@echo ... ife/P5716.i
+	@echo ... ife/P5716.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
