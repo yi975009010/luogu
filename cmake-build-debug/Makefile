@@ -194,6 +194,19 @@ P3150/fast:
 .PHONY : P3150/fast
 
 #=============================================================================
+# Target rules for targets named P5722
+
+# Build rule for target.
+P5722: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5722
+.PHONY : P5722
+
+# fast build rule for target.
+P5722/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5722.dir\build.make CMakeFiles/P5722.dir/build
+.PHONY : P5722/fast
+
+#=============================================================================
 # Target rules for targets named P4552
 
 # Build rule for target.
@@ -725,6 +738,45 @@ P5717: cmake_check_build_system
 P5717/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5717.dir\build.make CMakeFiles/P5717.dir/build
 .PHONY : P5717/fast
+
+#=============================================================================
+# Target rules for targets named P1980
+
+# Build rule for target.
+P1980: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1980
+.PHONY : P1980
+
+# fast build rule for target.
+P1980/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1980.dir\build.make CMakeFiles/P1980.dir/build
+.PHONY : P1980/fast
+
+#=============================================================================
+# Target rules for targets named P1035
+
+# Build rule for target.
+P1035: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1035
+.PHONY : P1035
+
+# fast build rule for target.
+P1035/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1035.dir\build.make CMakeFiles/P1035.dir/build
+.PHONY : P1035/fast
+
+#=============================================================================
+# Target rules for targets named P2669
+
+# Build rule for target.
+P2669: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P2669
+.PHONY : P2669
+
+# fast build rule for target.
+P2669/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2669.dir\build.make CMakeFiles/P2669.dir/build
+.PHONY : P2669/fast
 
 Acwing799.obj: Acwing799.cpp.obj
 .PHONY : Acwing799.obj
@@ -1734,6 +1786,78 @@ branch/P5717.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5717.dir\build.make CMakeFiles/P5717.dir/branch/P5717.cpp.s
 .PHONY : branch/P5717.cpp.s
 
+circulate/P1035.obj: circulate/P1035.cpp.obj
+.PHONY : circulate/P1035.obj
+
+# target to build an object file
+circulate/P1035.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1035.dir\build.make CMakeFiles/P1035.dir/circulate/P1035.cpp.obj
+.PHONY : circulate/P1035.cpp.obj
+
+circulate/P1035.i: circulate/P1035.cpp.i
+.PHONY : circulate/P1035.i
+
+# target to preprocess a source file
+circulate/P1035.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1035.dir\build.make CMakeFiles/P1035.dir/circulate/P1035.cpp.i
+.PHONY : circulate/P1035.cpp.i
+
+circulate/P1035.s: circulate/P1035.cpp.s
+.PHONY : circulate/P1035.s
+
+# target to generate assembly for a file
+circulate/P1035.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1035.dir\build.make CMakeFiles/P1035.dir/circulate/P1035.cpp.s
+.PHONY : circulate/P1035.cpp.s
+
+circulate/P1980.obj: circulate/P1980.cpp.obj
+.PHONY : circulate/P1980.obj
+
+# target to build an object file
+circulate/P1980.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1980.dir\build.make CMakeFiles/P1980.dir/circulate/P1980.cpp.obj
+.PHONY : circulate/P1980.cpp.obj
+
+circulate/P1980.i: circulate/P1980.cpp.i
+.PHONY : circulate/P1980.i
+
+# target to preprocess a source file
+circulate/P1980.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1980.dir\build.make CMakeFiles/P1980.dir/circulate/P1980.cpp.i
+.PHONY : circulate/P1980.cpp.i
+
+circulate/P1980.s: circulate/P1980.cpp.s
+.PHONY : circulate/P1980.s
+
+# target to generate assembly for a file
+circulate/P1980.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1980.dir\build.make CMakeFiles/P1980.dir/circulate/P1980.cpp.s
+.PHONY : circulate/P1980.cpp.s
+
+circulate/P2669.obj: circulate/P2669.cpp.obj
+.PHONY : circulate/P2669.obj
+
+# target to build an object file
+circulate/P2669.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2669.dir\build.make CMakeFiles/P2669.dir/circulate/P2669.cpp.obj
+.PHONY : circulate/P2669.cpp.obj
+
+circulate/P2669.i: circulate/P2669.cpp.i
+.PHONY : circulate/P2669.i
+
+# target to preprocess a source file
+circulate/P2669.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2669.dir\build.make CMakeFiles/P2669.dir/circulate/P2669.cpp.i
+.PHONY : circulate/P2669.cpp.i
+
+circulate/P2669.s: circulate/P2669.cpp.s
+.PHONY : circulate/P2669.s
+
+# target to generate assembly for a file
+circulate/P2669.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2669.dir\build.make CMakeFiles/P2669.dir/circulate/P2669.cpp.s
+.PHONY : circulate/P2669.cpp.s
+
 circulate/P5718.obj: circulate/P5718.cpp.obj
 .PHONY : circulate/P5718.obj
 
@@ -1830,6 +1954,30 @@ circulate/P5721.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5721.dir\build.make CMakeFiles/P5721.dir/circulate/P5721.cpp.s
 .PHONY : circulate/P5721.cpp.s
 
+circulate/P5722.obj: circulate/P5722.cpp.obj
+.PHONY : circulate/P5722.obj
+
+# target to build an object file
+circulate/P5722.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5722.dir\build.make CMakeFiles/P5722.dir/circulate/P5722.cpp.obj
+.PHONY : circulate/P5722.cpp.obj
+
+circulate/P5722.i: circulate/P5722.cpp.i
+.PHONY : circulate/P5722.i
+
+# target to preprocess a source file
+circulate/P5722.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5722.dir\build.make CMakeFiles/P5722.dir/circulate/P5722.cpp.i
+.PHONY : circulate/P5722.cpp.i
+
+circulate/P5722.s: circulate/P5722.cpp.s
+.PHONY : circulate/P5722.s
+
+# target to generate assembly for a file
+circulate/P5722.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5722.dir\build.make CMakeFiles/P5722.dir/circulate/P5722.cpp.s
+.PHONY : circulate/P5722.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1863,6 +2011,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Acwing799
+	@echo ... P1035
 	@echo ... P1046
 	@echo ... P1055
 	@echo ... P1085
@@ -1881,11 +2030,13 @@ help:
 	@echo ... P1888
 	@echo ... P1909
 	@echo ... P1957
+	@echo ... P1980
 	@echo ... P2043
 	@echo ... P2249
 	@echo ... P2367
 	@echo ... P2550
 	@echo ... P2615
+	@echo ... P2669
 	@echo ... P2872
 	@echo ... P2911
 	@echo ... P3150
@@ -1907,6 +2058,7 @@ help:
 	@echo ... P5719
 	@echo ... P5720
 	@echo ... P5721
+	@echo ... P5722
 	@echo ... P5729
 	@echo ... main
 	@echo ... Acwing799.obj
@@ -2035,6 +2187,15 @@ help:
 	@echo ... branch/P5717.obj
 	@echo ... branch/P5717.i
 	@echo ... branch/P5717.s
+	@echo ... circulate/P1035.obj
+	@echo ... circulate/P1035.i
+	@echo ... circulate/P1035.s
+	@echo ... circulate/P1980.obj
+	@echo ... circulate/P1980.i
+	@echo ... circulate/P1980.s
+	@echo ... circulate/P2669.obj
+	@echo ... circulate/P2669.i
+	@echo ... circulate/P2669.s
 	@echo ... circulate/P5718.obj
 	@echo ... circulate/P5718.i
 	@echo ... circulate/P5718.s
@@ -2047,6 +2208,9 @@ help:
 	@echo ... circulate/P5721.obj
 	@echo ... circulate/P5721.i
 	@echo ... circulate/P5721.s
+	@echo ... circulate/P5722.obj
+	@echo ... circulate/P5722.i
+	@echo ... circulate/P5722.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
