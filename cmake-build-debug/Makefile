@@ -363,6 +363,19 @@ P1319/fast:
 .PHONY : P1319/fast
 
 #=============================================================================
+# Target rules for targets named P1055
+
+# Build rule for target.
+P1055: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1055
+.PHONY : P1055
+
+# fast build rule for target.
+P1055/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1055.dir\build.make CMakeFiles/P1055.dir/build
+.PHONY : P1055/fast
+
+#=============================================================================
 # Target rules for targets named P3916
 
 # Build rule for target.
@@ -595,6 +608,19 @@ P1085: cmake_check_build_system
 P1085/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1085.dir\build.make CMakeFiles/P1085.dir/build
 .PHONY : P1085/fast
+
+#=============================================================================
+# Target rules for targets named P1422
+
+# Build rule for target.
+P1422: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1422
+.PHONY : P1422
+
+# fast build rule for target.
+P1422/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1422.dir\build.make CMakeFiles/P1422.dir/build
+.PHONY : P1422/fast
 
 Acwing799.obj: Acwing799.cpp.obj
 .PHONY : Acwing799.obj
@@ -1244,6 +1270,30 @@ P5729.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5729.dir\build.make CMakeFiles/P5729.dir/P5729.cpp.s
 .PHONY : P5729.cpp.s
 
+ife/P1055.obj: ife/P1055.cpp.obj
+.PHONY : ife/P1055.obj
+
+# target to build an object file
+ife/P1055.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1055.dir\build.make CMakeFiles/P1055.dir/ife/P1055.cpp.obj
+.PHONY : ife/P1055.cpp.obj
+
+ife/P1055.i: ife/P1055.cpp.i
+.PHONY : ife/P1055.i
+
+# target to preprocess a source file
+ife/P1055.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1055.dir\build.make CMakeFiles/P1055.dir/ife/P1055.cpp.i
+.PHONY : ife/P1055.cpp.i
+
+ife/P1055.s: ife/P1055.cpp.s
+.PHONY : ife/P1055.s
+
+# target to generate assembly for a file
+ife/P1055.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1055.dir\build.make CMakeFiles/P1055.dir/ife/P1055.cpp.s
+.PHONY : ife/P1055.cpp.s
+
 ife/P1085.obj: ife/P1085.cpp.obj
 .PHONY : ife/P1085.obj
 
@@ -1267,6 +1317,30 @@ ife/P1085.s: ife/P1085.cpp.s
 ife/P1085.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1085.dir\build.make CMakeFiles/P1085.dir/ife/P1085.cpp.s
 .PHONY : ife/P1085.cpp.s
+
+ife/P1422.obj: ife/P1422.cpp.obj
+.PHONY : ife/P1422.obj
+
+# target to build an object file
+ife/P1422.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1422.dir\build.make CMakeFiles/P1422.dir/ife/P1422.cpp.obj
+.PHONY : ife/P1422.cpp.obj
+
+ife/P1422.i: ife/P1422.cpp.i
+.PHONY : ife/P1422.i
+
+# target to preprocess a source file
+ife/P1422.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1422.dir\build.make CMakeFiles/P1422.dir/ife/P1422.cpp.i
+.PHONY : ife/P1422.cpp.i
+
+ife/P1422.s: ife/P1422.cpp.s
+.PHONY : ife/P1422.s
+
+# target to generate assembly for a file
+ife/P1422.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1422.dir\build.make CMakeFiles/P1422.dir/ife/P1422.cpp.s
+.PHONY : ife/P1422.cpp.s
 
 ife/P1909.obj: ife/P1909.cpp.obj
 .PHONY : ife/P1909.obj
@@ -1493,6 +1567,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Acwing799
+	@echo ... P1055
 	@echo ... P1085
 	@echo ... P1143
 	@echo ... P1157
@@ -1500,6 +1575,7 @@ help:
 	@echo ... P1217
 	@echo ... P1219
 	@echo ... P1319
+	@echo ... P1422
 	@echo ... P1443
 	@echo ... P1506
 	@echo ... P1554
@@ -1610,9 +1686,15 @@ help:
 	@echo ... P5729.obj
 	@echo ... P5729.i
 	@echo ... P5729.s
+	@echo ... ife/P1055.obj
+	@echo ... ife/P1055.i
+	@echo ... ife/P1055.s
 	@echo ... ife/P1085.obj
 	@echo ... ife/P1085.i
 	@echo ... ife/P1085.s
+	@echo ... ife/P1422.obj
+	@echo ... ife/P1422.i
+	@echo ... ife/P1422.s
 	@echo ... ife/P1909.obj
 	@echo ... ife/P1909.i
 	@echo ... ife/P1909.s
