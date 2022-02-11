@@ -402,6 +402,19 @@ P3916/fast:
 .PHONY : P3916/fast
 
 #=============================================================================
+# Target rules for targets named P5720
+
+# Build rule for target.
+P5720: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5720
+.PHONY : P5720
+
+# fast build rule for target.
+P5720/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5720.dir\build.make CMakeFiles/P5720.dir/build
+.PHONY : P5720/fast
+
+#=============================================================================
 # Target rules for targets named P1157
 
 # Build rule for target.
@@ -478,6 +491,19 @@ P1162: cmake_check_build_system
 P1162/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1162.dir\build.make CMakeFiles/P1162.dir/build
 .PHONY : P1162/fast
+
+#=============================================================================
+# Target rules for targets named P5721
+
+# Build rule for target.
+P5721: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5721
+.PHONY : P5721
+
+# fast build rule for target.
+P5721/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5721.dir\build.make CMakeFiles/P5721.dir/build
+.PHONY : P5721/fast
 
 #=============================================================================
 # Target rules for targets named P5318
@@ -634,6 +660,19 @@ P5716: cmake_check_build_system
 P5716/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5716.dir\build.make CMakeFiles/P5716.dir/build
 .PHONY : P5716/fast
+
+#=============================================================================
+# Target rules for targets named P5719
+
+# Build rule for target.
+P5719: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5719
+.PHONY : P5719
+
+# fast build rule for target.
+P5719/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5719.dir\build.make CMakeFiles/P5719.dir/build
+.PHONY : P5719/fast
 
 #=============================================================================
 # Target rules for targets named P1085
@@ -1719,6 +1758,78 @@ circulate/P5718.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5718.dir\build.make CMakeFiles/P5718.dir/circulate/P5718.cpp.s
 .PHONY : circulate/P5718.cpp.s
 
+circulate/P5719.obj: circulate/P5719.cpp.obj
+.PHONY : circulate/P5719.obj
+
+# target to build an object file
+circulate/P5719.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5719.dir\build.make CMakeFiles/P5719.dir/circulate/P5719.cpp.obj
+.PHONY : circulate/P5719.cpp.obj
+
+circulate/P5719.i: circulate/P5719.cpp.i
+.PHONY : circulate/P5719.i
+
+# target to preprocess a source file
+circulate/P5719.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5719.dir\build.make CMakeFiles/P5719.dir/circulate/P5719.cpp.i
+.PHONY : circulate/P5719.cpp.i
+
+circulate/P5719.s: circulate/P5719.cpp.s
+.PHONY : circulate/P5719.s
+
+# target to generate assembly for a file
+circulate/P5719.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5719.dir\build.make CMakeFiles/P5719.dir/circulate/P5719.cpp.s
+.PHONY : circulate/P5719.cpp.s
+
+circulate/P5720.obj: circulate/P5720.cpp.obj
+.PHONY : circulate/P5720.obj
+
+# target to build an object file
+circulate/P5720.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5720.dir\build.make CMakeFiles/P5720.dir/circulate/P5720.cpp.obj
+.PHONY : circulate/P5720.cpp.obj
+
+circulate/P5720.i: circulate/P5720.cpp.i
+.PHONY : circulate/P5720.i
+
+# target to preprocess a source file
+circulate/P5720.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5720.dir\build.make CMakeFiles/P5720.dir/circulate/P5720.cpp.i
+.PHONY : circulate/P5720.cpp.i
+
+circulate/P5720.s: circulate/P5720.cpp.s
+.PHONY : circulate/P5720.s
+
+# target to generate assembly for a file
+circulate/P5720.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5720.dir\build.make CMakeFiles/P5720.dir/circulate/P5720.cpp.s
+.PHONY : circulate/P5720.cpp.s
+
+circulate/P5721.obj: circulate/P5721.cpp.obj
+.PHONY : circulate/P5721.obj
+
+# target to build an object file
+circulate/P5721.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5721.dir\build.make CMakeFiles/P5721.dir/circulate/P5721.cpp.obj
+.PHONY : circulate/P5721.cpp.obj
+
+circulate/P5721.i: circulate/P5721.cpp.i
+.PHONY : circulate/P5721.i
+
+# target to preprocess a source file
+circulate/P5721.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5721.dir\build.make CMakeFiles/P5721.dir/circulate/P5721.cpp.i
+.PHONY : circulate/P5721.cpp.i
+
+circulate/P5721.s: circulate/P5721.cpp.s
+.PHONY : circulate/P5721.s
+
+# target to generate assembly for a file
+circulate/P5721.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5721.dir\build.make CMakeFiles/P5721.dir/circulate/P5721.cpp.s
+.PHONY : circulate/P5721.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1793,6 +1904,9 @@ help:
 	@echo ... P5716
 	@echo ... P5717
 	@echo ... P5718
+	@echo ... P5719
+	@echo ... P5720
+	@echo ... P5721
 	@echo ... P5729
 	@echo ... main
 	@echo ... Acwing799.obj
@@ -1924,6 +2038,15 @@ help:
 	@echo ... circulate/P5718.obj
 	@echo ... circulate/P5718.i
 	@echo ... circulate/P5718.s
+	@echo ... circulate/P5719.obj
+	@echo ... circulate/P5719.i
+	@echo ... circulate/P5719.s
+	@echo ... circulate/P5720.obj
+	@echo ... circulate/P5720.i
+	@echo ... circulate/P5720.s
+	@echo ... circulate/P5721.obj
+	@echo ... circulate/P5721.i
+	@echo ... circulate/P5721.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

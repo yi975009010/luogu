@@ -84,12 +84,14 @@ all: CMakeFiles/P2911.dir/all
 all: CMakeFiles/P1319.dir/all
 all: CMakeFiles/P1055.dir/all
 all: CMakeFiles/P3916.dir/all
+all: CMakeFiles/P5720.dir/all
 all: CMakeFiles/P1157.dir/all
 all: CMakeFiles/P1957.dir/all
 all: CMakeFiles/P2872.dir/all
 all: CMakeFiles/P2043.dir/all
 all: CMakeFiles/P1506.dir/all
 all: CMakeFiles/P1162.dir/all
+all: CMakeFiles/P5721.dir/all
 all: CMakeFiles/P5318.dir/all
 all: CMakeFiles/P1807.dir/all
 all: CMakeFiles/P5712.dir/all
@@ -102,6 +104,7 @@ all: CMakeFiles/P5713.dir/all
 all: CMakeFiles/P5714.dir/all
 all: CMakeFiles/P1046.dir/all
 all: CMakeFiles/P5716.dir/all
+all: CMakeFiles/P5719.dir/all
 all: CMakeFiles/P1085.dir/all
 all: CMakeFiles/P1422.dir/all
 all: CMakeFiles/P1888.dir/all
@@ -135,12 +138,14 @@ clean: CMakeFiles/P2911.dir/clean
 clean: CMakeFiles/P1319.dir/clean
 clean: CMakeFiles/P1055.dir/clean
 clean: CMakeFiles/P3916.dir/clean
+clean: CMakeFiles/P5720.dir/clean
 clean: CMakeFiles/P1157.dir/clean
 clean: CMakeFiles/P1957.dir/clean
 clean: CMakeFiles/P2872.dir/clean
 clean: CMakeFiles/P2043.dir/clean
 clean: CMakeFiles/P1506.dir/clean
 clean: CMakeFiles/P1162.dir/clean
+clean: CMakeFiles/P5721.dir/clean
 clean: CMakeFiles/P5318.dir/clean
 clean: CMakeFiles/P1807.dir/clean
 clean: CMakeFiles/P5712.dir/clean
@@ -153,6 +158,7 @@ clean: CMakeFiles/P5713.dir/clean
 clean: CMakeFiles/P5714.dir/clean
 clean: CMakeFiles/P1046.dir/clean
 clean: CMakeFiles/P5716.dir/clean
+clean: CMakeFiles/P5719.dir/clean
 clean: CMakeFiles/P1085.dir/clean
 clean: CMakeFiles/P1422.dir/clean
 clean: CMakeFiles/P1888.dir/clean
@@ -166,7 +172,7 @@ clean: CMakeFiles/P5717.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles --progress-num=87,88 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles --progress-num=93,94 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -556,7 +562,7 @@ CMakeFiles/P1909.dir/clean:
 CMakeFiles/P5729.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5729.dir\build.make CMakeFiles/P5729.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5729.dir\build.make CMakeFiles/P5729.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target P5729"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles --progress-num=91,92 "Built target P5729"
 .PHONY : CMakeFiles/P5729.dir/all
 
 # Build rule for subdir invocation for target.
@@ -732,6 +738,32 @@ CMakeFiles/P3916.dir/clean:
 .PHONY : CMakeFiles/P3916.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/P5720.dir
+
+# All Build rule for target.
+CMakeFiles/P5720.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5720.dir\build.make CMakeFiles/P5720.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5720.dir\build.make CMakeFiles/P5720.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles --progress-num=87,88 "Built target P5720"
+.PHONY : CMakeFiles/P5720.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P5720.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/P5720.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P5720.dir/rule
+
+# Convenience name for target.
+P5720: CMakeFiles/P5720.dir/rule
+.PHONY : P5720
+
+# clean rule for target.
+CMakeFiles/P5720.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5720.dir\build.make CMakeFiles/P5720.dir/clean
+.PHONY : CMakeFiles/P5720.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/P1157.dir
 
 # All Build rule for target.
@@ -886,6 +918,32 @@ P1162: CMakeFiles/P1162.dir/rule
 CMakeFiles/P1162.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1162.dir\build.make CMakeFiles/P1162.dir/clean
 .PHONY : CMakeFiles/P1162.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P5721.dir
+
+# All Build rule for target.
+CMakeFiles/P5721.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5721.dir\build.make CMakeFiles/P5721.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5721.dir\build.make CMakeFiles/P5721.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles --progress-num=89,90 "Built target P5721"
+.PHONY : CMakeFiles/P5721.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P5721.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/P5721.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P5721.dir/rule
+
+# Convenience name for target.
+P5721: CMakeFiles/P5721.dir/rule
+.PHONY : P5721
+
+# clean rule for target.
+CMakeFiles/P5721.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5721.dir\build.make CMakeFiles/P5721.dir/clean
+.PHONY : CMakeFiles/P5721.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/P5318.dir
@@ -1198,6 +1256,32 @@ P5716: CMakeFiles/P5716.dir/rule
 CMakeFiles/P5716.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5716.dir\build.make CMakeFiles/P5716.dir/clean
 .PHONY : CMakeFiles/P5716.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P5719.dir
+
+# All Build rule for target.
+CMakeFiles/P5719.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5719.dir\build.make CMakeFiles/P5719.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5719.dir\build.make CMakeFiles/P5719.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target P5719"
+.PHONY : CMakeFiles/P5719.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P5719.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/P5719.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P5719.dir/rule
+
+# Convenience name for target.
+P5719: CMakeFiles/P5719.dir/rule
+.PHONY : P5719
+
+# clean rule for target.
+CMakeFiles/P5719.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5719.dir\build.make CMakeFiles/P5719.dir/clean
+.PHONY : CMakeFiles/P5719.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/P1085.dir
