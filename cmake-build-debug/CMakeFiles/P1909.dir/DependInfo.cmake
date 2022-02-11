@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/ife/P1909.cpp" "C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/CMakeFiles/P1909.dir/ife/P1909.cpp.obj"
+  "C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/branch/P1909.cpp" "C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/CMakeFiles/P1909.dir/branch/P1909.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
