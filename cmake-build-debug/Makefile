@@ -454,6 +454,19 @@ P1957/fast:
 .PHONY : P1957/fast
 
 #=============================================================================
+# Target rules for targets named P5727
+
+# Build rule for target.
+P5727: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5727
+.PHONY : P5727
+
+# fast build rule for target.
+P5727/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5727.dir\build.make CMakeFiles/P5727.dir/build
+.PHONY : P5727/fast
+
+#=============================================================================
 # Target rules for targets named P2872
 
 # Build rule for target.
@@ -727,6 +740,19 @@ P1888/fast:
 .PHONY : P1888/fast
 
 #=============================================================================
+# Target rules for targets named P1047
+
+# Build rule for target.
+P1047: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1047
+.PHONY : P1047
+
+# fast build rule for target.
+P1047/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1047.dir\build.make CMakeFiles/P1047.dir/build
+.PHONY : P1047/fast
+
+#=============================================================================
 # Target rules for targets named P5717
 
 # Build rule for target.
@@ -777,6 +803,32 @@ P2669: cmake_check_build_system
 P2669/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2669.dir\build.make CMakeFiles/P2669.dir/build
 .PHONY : P2669/fast
+
+#=============================================================================
+# Target rules for targets named P1428
+
+# Build rule for target.
+P1428: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1428
+.PHONY : P1428
+
+# fast build rule for target.
+P1428/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1428.dir\build.make CMakeFiles/P1428.dir/build
+.PHONY : P1428/fast
+
+#=============================================================================
+# Target rules for targets named P1427
+
+# Build rule for target.
+P1427: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1427
+.PHONY : P1427
+
+# fast build rule for target.
+P1427/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1427.dir\build.make CMakeFiles/P1427.dir/build
+.PHONY : P1427/fast
 
 Acwing799.obj: Acwing799.cpp.obj
 .PHONY : Acwing799.obj
@@ -1426,6 +1478,102 @@ P5729.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5729.dir\build.make CMakeFiles/P5729.dir/P5729.cpp.s
 .PHONY : P5729.cpp.s
 
+array/P1047.obj: array/P1047.cpp.obj
+.PHONY : array/P1047.obj
+
+# target to build an object file
+array/P1047.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1047.dir\build.make CMakeFiles/P1047.dir/array/P1047.cpp.obj
+.PHONY : array/P1047.cpp.obj
+
+array/P1047.i: array/P1047.cpp.i
+.PHONY : array/P1047.i
+
+# target to preprocess a source file
+array/P1047.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1047.dir\build.make CMakeFiles/P1047.dir/array/P1047.cpp.i
+.PHONY : array/P1047.cpp.i
+
+array/P1047.s: array/P1047.cpp.s
+.PHONY : array/P1047.s
+
+# target to generate assembly for a file
+array/P1047.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1047.dir\build.make CMakeFiles/P1047.dir/array/P1047.cpp.s
+.PHONY : array/P1047.cpp.s
+
+array/P1427.obj: array/P1427.cpp.obj
+.PHONY : array/P1427.obj
+
+# target to build an object file
+array/P1427.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1427.dir\build.make CMakeFiles/P1427.dir/array/P1427.cpp.obj
+.PHONY : array/P1427.cpp.obj
+
+array/P1427.i: array/P1427.cpp.i
+.PHONY : array/P1427.i
+
+# target to preprocess a source file
+array/P1427.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1427.dir\build.make CMakeFiles/P1427.dir/array/P1427.cpp.i
+.PHONY : array/P1427.cpp.i
+
+array/P1427.s: array/P1427.cpp.s
+.PHONY : array/P1427.s
+
+# target to generate assembly for a file
+array/P1427.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1427.dir\build.make CMakeFiles/P1427.dir/array/P1427.cpp.s
+.PHONY : array/P1427.cpp.s
+
+array/P1428.obj: array/P1428.cpp.obj
+.PHONY : array/P1428.obj
+
+# target to build an object file
+array/P1428.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1428.dir\build.make CMakeFiles/P1428.dir/array/P1428.cpp.obj
+.PHONY : array/P1428.cpp.obj
+
+array/P1428.i: array/P1428.cpp.i
+.PHONY : array/P1428.i
+
+# target to preprocess a source file
+array/P1428.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1428.dir\build.make CMakeFiles/P1428.dir/array/P1428.cpp.i
+.PHONY : array/P1428.cpp.i
+
+array/P1428.s: array/P1428.cpp.s
+.PHONY : array/P1428.s
+
+# target to generate assembly for a file
+array/P1428.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1428.dir\build.make CMakeFiles/P1428.dir/array/P1428.cpp.s
+.PHONY : array/P1428.cpp.s
+
+array/P5727.obj: array/P5727.cpp.obj
+.PHONY : array/P5727.obj
+
+# target to build an object file
+array/P5727.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5727.dir\build.make CMakeFiles/P5727.dir/array/P5727.cpp.obj
+.PHONY : array/P5727.cpp.obj
+
+array/P5727.i: array/P5727.cpp.i
+.PHONY : array/P5727.i
+
+# target to preprocess a source file
+array/P5727.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5727.dir\build.make CMakeFiles/P5727.dir/array/P5727.cpp.i
+.PHONY : array/P5727.cpp.i
+
+array/P5727.s: array/P5727.cpp.s
+.PHONY : array/P5727.s
+
+# target to generate assembly for a file
+array/P5727.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5727.dir\build.make CMakeFiles/P5727.dir/array/P5727.cpp.s
+.PHONY : array/P5727.cpp.s
+
 branch/P1046.obj: branch/P1046.cpp.obj
 .PHONY : branch/P1046.obj
 
@@ -2013,6 +2161,7 @@ help:
 	@echo ... Acwing799
 	@echo ... P1035
 	@echo ... P1046
+	@echo ... P1047
 	@echo ... P1055
 	@echo ... P1085
 	@echo ... P1143
@@ -2022,6 +2171,8 @@ help:
 	@echo ... P1219
 	@echo ... P1319
 	@echo ... P1422
+	@echo ... P1427
+	@echo ... P1428
 	@echo ... P1443
 	@echo ... P1506
 	@echo ... P1554
@@ -2059,6 +2210,7 @@ help:
 	@echo ... P5720
 	@echo ... P5721
 	@echo ... P5722
+	@echo ... P5727
 	@echo ... P5729
 	@echo ... main
 	@echo ... Acwing799.obj
@@ -2142,6 +2294,18 @@ help:
 	@echo ... P5729.obj
 	@echo ... P5729.i
 	@echo ... P5729.s
+	@echo ... array/P1047.obj
+	@echo ... array/P1047.i
+	@echo ... array/P1047.s
+	@echo ... array/P1427.obj
+	@echo ... array/P1427.i
+	@echo ... array/P1427.s
+	@echo ... array/P1428.obj
+	@echo ... array/P1428.i
+	@echo ... array/P1428.s
+	@echo ... array/P5727.obj
+	@echo ... array/P5727.i
+	@echo ... array/P5727.s
 	@echo ... branch/P1046.obj
 	@echo ... branch/P1046.i
 	@echo ... branch/P1046.s
