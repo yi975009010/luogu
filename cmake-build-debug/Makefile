@@ -363,6 +363,19 @@ P2615/fast:
 .PHONY : P2615/fast
 
 #=============================================================================
+# Target rules for targets named P1125
+
+# Build rule for target.
+P1125: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1125
+.PHONY : P1125
+
+# fast build rule for target.
+P1125/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1125.dir\build.make CMakeFiles/P1125.dir/build
+.PHONY : P1125/fast
+
+#=============================================================================
 # Target rules for targets named P1554
 
 # Build rule for target.
@@ -831,6 +844,19 @@ P2669/fast:
 .PHONY : P2669/fast
 
 #=============================================================================
+# Target rules for targets named P1802
+
+# Build rule for target.
+P1802: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1802
+.PHONY : P1802
+
+# fast build rule for target.
+P1802/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1802.dir\build.make CMakeFiles/P1802.dir/build
+.PHONY : P1802/fast
+
+#=============================================================================
 # Target rules for targets named P1428
 
 # Build rule for target.
@@ -869,6 +895,19 @@ P1616/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1616.dir\build.make CMakeFiles/P1616.dir/build
 .PHONY : P1616/fast
 
+#=============================================================================
+# Target rules for targets named Frog1
+
+# Build rule for target.
+Frog1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Frog1
+.PHONY : Frog1
+
+# fast build rule for target.
+Frog1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Frog1.dir\build.make CMakeFiles/Frog1.dir/build
+.PHONY : Frog1/fast
+
 Acwing799.obj: Acwing799.cpp.obj
 .PHONY : Acwing799.obj
 
@@ -892,6 +931,30 @@ Acwing799.s: Acwing799.cpp.s
 Acwing799.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing799.dir\build.make CMakeFiles/Acwing799.dir/Acwing799.cpp.s
 .PHONY : Acwing799.cpp.s
+
+Frog1.obj: Frog1.cpp.obj
+.PHONY : Frog1.obj
+
+# target to build an object file
+Frog1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Frog1.dir\build.make CMakeFiles/Frog1.dir/Frog1.cpp.obj
+.PHONY : Frog1.cpp.obj
+
+Frog1.i: Frog1.cpp.i
+.PHONY : Frog1.i
+
+# target to preprocess a source file
+Frog1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Frog1.dir\build.make CMakeFiles/Frog1.dir/Frog1.cpp.i
+.PHONY : Frog1.cpp.i
+
+Frog1.s: Frog1.cpp.s
+.PHONY : Frog1.s
+
+# target to generate assembly for a file
+Frog1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Frog1.dir\build.make CMakeFiles/Frog1.dir/Frog1.cpp.s
+.PHONY : Frog1.cpp.s
 
 P1143.obj: P1143.cpp.obj
 .PHONY : P1143.obj
@@ -2237,6 +2300,30 @@ dp/P1616.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1616.dir\build.make CMakeFiles/P1616.dir/dp/P1616.cpp.s
 .PHONY : dp/P1616.cpp.s
 
+dp/P1802.obj: dp/P1802.cpp.obj
+.PHONY : dp/P1802.obj
+
+# target to build an object file
+dp/P1802.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1802.dir\build.make CMakeFiles/P1802.dir/dp/P1802.cpp.obj
+.PHONY : dp/P1802.cpp.obj
+
+dp/P1802.i: dp/P1802.cpp.i
+.PHONY : dp/P1802.i
+
+# target to preprocess a source file
+dp/P1802.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1802.dir\build.make CMakeFiles/P1802.dir/dp/P1802.cpp.i
+.PHONY : dp/P1802.cpp.i
+
+dp/P1802.s: dp/P1802.cpp.s
+.PHONY : dp/P1802.s
+
+# target to generate assembly for a file
+dp/P1802.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1802.dir\build.make CMakeFiles/P1802.dir/dp/P1802.cpp.s
+.PHONY : dp/P1802.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -2261,6 +2348,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+str/P1125.obj: str/P1125.cpp.obj
+.PHONY : str/P1125.obj
+
+# target to build an object file
+str/P1125.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1125.dir\build.make CMakeFiles/P1125.dir/str/P1125.cpp.obj
+.PHONY : str/P1125.cpp.obj
+
+str/P1125.i: str/P1125.cpp.i
+.PHONY : str/P1125.i
+
+# target to preprocess a source file
+str/P1125.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1125.dir\build.make CMakeFiles/P1125.dir/str/P1125.cpp.i
+.PHONY : str/P1125.cpp.i
+
+str/P1125.s: str/P1125.cpp.s
+.PHONY : str/P1125.s
+
+# target to generate assembly for a file
+str/P1125.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1125.dir\build.make CMakeFiles/P1125.dir/str/P1125.cpp.s
+.PHONY : str/P1125.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2270,12 +2381,14 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Acwing799
+	@echo ... Frog1
 	@echo ... P1035
 	@echo ... P1046
 	@echo ... P1047
 	@echo ... P1048
 	@echo ... P1055
 	@echo ... P1085
+	@echo ... P1125
 	@echo ... P1143
 	@echo ... P1157
 	@echo ... P1162
@@ -2290,6 +2403,7 @@ help:
 	@echo ... P1506
 	@echo ... P1554
 	@echo ... P1616
+	@echo ... P1802
 	@echo ... P1807
 	@echo ... P1866
 	@echo ... P1888
@@ -2330,6 +2444,9 @@ help:
 	@echo ... Acwing799.obj
 	@echo ... Acwing799.i
 	@echo ... Acwing799.s
+	@echo ... Frog1.obj
+	@echo ... Frog1.i
+	@echo ... Frog1.s
 	@echo ... P1143.obj
 	@echo ... P1143.i
 	@echo ... P1143.s
@@ -2498,9 +2615,15 @@ help:
 	@echo ... dp/P1616.obj
 	@echo ... dp/P1616.i
 	@echo ... dp/P1616.s
+	@echo ... dp/P1802.obj
+	@echo ... dp/P1802.i
+	@echo ... dp/P1802.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... str/P1125.obj
+	@echo ... str/P1125.i
+	@echo ... str/P1125.s
 .PHONY : help
 
 
