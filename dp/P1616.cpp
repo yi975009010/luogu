@@ -7,9 +7,9 @@
 using namespace std;
 
 typedef long long ll;
-const int N=1e7+10;
+const int N=1e7+10,M=1e4+10;
 int n,m;
-int a[N],b[N];
+int a[M],b[M];
 ll f[N];
 int main() {
     ios::sync_with_stdio(false);

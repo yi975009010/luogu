@@ -142,6 +142,19 @@ P2249/fast:
 .PHONY : P2249/fast
 
 #=============================================================================
+# Target rules for targets named P1048
+
+# Build rule for target.
+P1048: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1048
+.PHONY : P1048
+
+# fast build rule for target.
+P1048/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1048.dir\build.make CMakeFiles/P1048.dir/build
+.PHONY : P1048/fast
+
+#=============================================================================
 # Target rules for targets named P5718
 
 # Build rule for target.
@@ -2152,6 +2165,30 @@ circulate/P5722.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5722.dir\build.make CMakeFiles/P5722.dir/circulate/P5722.cpp.s
 .PHONY : circulate/P5722.cpp.s
 
+dp/P1048.obj: dp/P1048.cpp.obj
+.PHONY : dp/P1048.obj
+
+# target to build an object file
+dp/P1048.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1048.dir\build.make CMakeFiles/P1048.dir/dp/P1048.cpp.obj
+.PHONY : dp/P1048.cpp.obj
+
+dp/P1048.i: dp/P1048.cpp.i
+.PHONY : dp/P1048.i
+
+# target to preprocess a source file
+dp/P1048.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1048.dir\build.make CMakeFiles/P1048.dir/dp/P1048.cpp.i
+.PHONY : dp/P1048.cpp.i
+
+dp/P1048.s: dp/P1048.cpp.s
+.PHONY : dp/P1048.s
+
+# target to generate assembly for a file
+dp/P1048.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1048.dir\build.make CMakeFiles/P1048.dir/dp/P1048.cpp.s
+.PHONY : dp/P1048.cpp.s
+
 dp/P1216.obj: dp/P1216.cpp.obj
 .PHONY : dp/P1216.obj
 
@@ -2236,6 +2273,7 @@ help:
 	@echo ... P1035
 	@echo ... P1046
 	@echo ... P1047
+	@echo ... P1048
 	@echo ... P1055
 	@echo ... P1085
 	@echo ... P1143
@@ -2451,6 +2489,9 @@ help:
 	@echo ... circulate/P5722.obj
 	@echo ... circulate/P5722.i
 	@echo ... circulate/P5722.s
+	@echo ... dp/P1048.obj
+	@echo ... dp/P1048.i
+	@echo ... dp/P1048.s
 	@echo ... dp/P1216.obj
 	@echo ... dp/P1216.i
 	@echo ... dp/P1216.s
