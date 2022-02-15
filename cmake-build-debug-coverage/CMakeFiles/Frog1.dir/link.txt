@@ -1,0 +1,3 @@
+"D:\Program Files\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Frog1.dir/objects.a
+C:\MinGW\mingw64\bin\ar.exe cr CMakeFiles\Frog1.dir/objects.a @CMakeFiles\Frog1.dir\objects1.rsp
+C:\MinGW\mingw64\bin\g++.exe --coverage -g -Wl,--whole-archive CMakeFiles\Frog1.dir/objects.a -Wl,--no-whole-archive -o Frog1.exe -Wl,--out-implib,libFrog1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Frog1.dir\linklibs.rsp

@@ -1,0 +1,79 @@
+        -:    0:Source:C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/str/P1308.cpp
+        -:    0:Graph:C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug-coverage\CMakeFiles\P1308.dir\str\P1308.cpp.gcno
+        -:    0:Data:C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug-coverage\CMakeFiles\P1308.dir\str\P1308.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include <bits/stdc++.h>
+        -:    2:#include <string>
+        -:    3:/**
+        -:    4: *
+        -:    5: * [NOIP2011 普及组] 统计单词数
+        -:    6: *2022/2/15 17:09
+        -:    7: */
+        -:    8:using namespace std;
+        -:    9:
+function main called 1 returned 100% blocks executed 71%
+        1:   10:int main() {
+        1:   11:    ios::sync_with_stdio(false);
+        1:   11-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   12:    cin.tie(0);
+        1:   12-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   13:    cout.tie(0);
+        1:   13-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   14:    string s1,s2;
+        1:   14-block  0
+call    0 returned 1
+call    1 returned 1
+call    2 returned 1
+    $$$$$:   14-block  1
+call    3 never executed
+    $$$$$:   14-block  2
+call    4 never executed
+        1:   15:    cin>>s1;
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   16:    cout<<s1<<endl;
+        1:   16-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   16-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   17:    getline(cin,s2);
+        1:   17-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   18:    for(int i=0;i<s2.size();i++){
+        1:   18-block  0
+        1:   18-block  1
+call    0 returned 1
+branch  1 taken 0 (fallthrough)
+branch  2 taken 1
+    %%%%%:   18-block  2
+    #####:   19:        cout<<s2[i];
+    %%%%%:   19-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   19-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:   20:    }
+        1:   21:    return 0;
+        1:   21-block  0
+call    0 returned 1
+        -:   22:}

@@ -65,27 +65,27 @@ include CMakeFiles/P1957.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/P1957.dir/flags.make
 
-CMakeFiles/P1957.dir/P1957.cpp.obj: CMakeFiles/P1957.dir/flags.make
-CMakeFiles/P1957.dir/P1957.cpp.obj: ../P1957.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/P1957.dir/P1957.cpp.obj"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\P1957.dir\P1957.cpp.obj -c C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\P1957.cpp
+CMakeFiles/P1957.dir/str/P1957.cpp.obj: CMakeFiles/P1957.dir/flags.make
+CMakeFiles/P1957.dir/str/P1957.cpp.obj: ../str/P1957.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/P1957.dir/str/P1957.cpp.obj"
+	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\P1957.dir\str\P1957.cpp.obj -c C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\str\P1957.cpp
 
-CMakeFiles/P1957.dir/P1957.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/P1957.dir/P1957.cpp.i"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\P1957.cpp > CMakeFiles\P1957.dir\P1957.cpp.i
+CMakeFiles/P1957.dir/str/P1957.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/P1957.dir/str/P1957.cpp.i"
+	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\str\P1957.cpp > CMakeFiles\P1957.dir\str\P1957.cpp.i
 
-CMakeFiles/P1957.dir/P1957.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/P1957.dir/P1957.cpp.s"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\P1957.cpp -o CMakeFiles\P1957.dir\P1957.cpp.s
+CMakeFiles/P1957.dir/str/P1957.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/P1957.dir/str/P1957.cpp.s"
+	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lenovo.DESKTOP-FH6F75H\CLionProjects\luogu\str\P1957.cpp -o CMakeFiles\P1957.dir\str\P1957.cpp.s
 
 # Object files for target P1957
 P1957_OBJECTS = \
-"CMakeFiles/P1957.dir/P1957.cpp.obj"
+"CMakeFiles/P1957.dir/str/P1957.cpp.obj"
 
 # External object files for target P1957
 P1957_EXTERNAL_OBJECTS =
 
-P1957.exe: CMakeFiles/P1957.dir/P1957.cpp.obj
+P1957.exe: CMakeFiles/P1957.dir/str/P1957.cpp.obj
 P1957.exe: CMakeFiles/P1957.dir/build.make
 P1957.exe: CMakeFiles/P1957.dir/linklibs.rsp
 P1957.exe: CMakeFiles/P1957.dir/objects1.rsp
