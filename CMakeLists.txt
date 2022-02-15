@@ -68,5 +68,3 @@ add_executable(P1048 dp/P1048.cpp)
 add_executable(P1802 dp/P1802.cpp)
 add_executable(Frog1 Frog1.cpp)
 add_executable(P1125 str/P1125.cpp)
-
-add_executable(P1308 str/P1308.cpp)

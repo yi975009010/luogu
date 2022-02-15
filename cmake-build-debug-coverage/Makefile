@@ -207,19 +207,6 @@ P3150/fast:
 .PHONY : P3150/fast
 
 #=============================================================================
-# Target rules for targets named P1308
-
-# Build rule for target.
-P1308: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1308
-.PHONY : P1308
-
-# fast build rule for target.
-P1308/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1308.dir\build.make CMakeFiles/P1308.dir/build
-.PHONY : P1308/fast
-
-#=============================================================================
 # Target rules for targets named P5722
 
 # Build rule for target.
@@ -2361,30 +2348,6 @@ str/P1125.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1125.dir\build.make CMakeFiles/P1125.dir/str/P1125.cpp.s
 .PHONY : str/P1125.cpp.s
 
-str/P1308.obj: str/P1308.cpp.obj
-.PHONY : str/P1308.obj
-
-# target to build an object file
-str/P1308.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1308.dir\build.make CMakeFiles/P1308.dir/str/P1308.cpp.obj
-.PHONY : str/P1308.cpp.obj
-
-str/P1308.i: str/P1308.cpp.i
-.PHONY : str/P1308.i
-
-# target to preprocess a source file
-str/P1308.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1308.dir\build.make CMakeFiles/P1308.dir/str/P1308.cpp.i
-.PHONY : str/P1308.cpp.i
-
-str/P1308.s: str/P1308.cpp.s
-.PHONY : str/P1308.s
-
-# target to generate assembly for a file
-str/P1308.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1308.dir\build.make CMakeFiles/P1308.dir/str/P1308.cpp.s
-.PHONY : str/P1308.cpp.s
-
 str/P1957.obj: str/P1957.cpp.obj
 .PHONY : str/P1957.obj
 
@@ -2432,7 +2395,6 @@ help:
 	@echo ... P1216
 	@echo ... P1217
 	@echo ... P1219
-	@echo ... P1308
 	@echo ... P1319
 	@echo ... P1422
 	@echo ... P1427
@@ -2659,9 +2621,6 @@ help:
 	@echo ... str/P1125.obj
 	@echo ... str/P1125.i
 	@echo ... str/P1125.s
-	@echo ... str/P1308.obj
-	@echo ... str/P1308.i
-	@echo ... str/P1308.s
 	@echo ... str/P1957.obj
 	@echo ... str/P1957.i
 	@echo ... str/P1957.s
