@@ -584,6 +584,19 @@ P1143/fast:
 .PHONY : P1143/fast
 
 #=============================================================================
+# Target rules for targets named P1216
+
+# Build rule for target.
+P1216: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1216
+.PHONY : P1216
+
+# fast build rule for target.
+P1216/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1216.dir\build.make CMakeFiles/P1216.dir/build
+.PHONY : P1216/fast
+
+#=============================================================================
 # Target rules for targets named P4387
 
 # Build rule for target.
@@ -829,6 +842,19 @@ P1427: cmake_check_build_system
 P1427/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1427.dir\build.make CMakeFiles/P1427.dir/build
 .PHONY : P1427/fast
+
+#=============================================================================
+# Target rules for targets named P1616
+
+# Build rule for target.
+P1616: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1616
+.PHONY : P1616
+
+# fast build rule for target.
+P1616/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1616.dir\build.make CMakeFiles/P1616.dir/build
+.PHONY : P1616/fast
 
 Acwing799.obj: Acwing799.cpp.obj
 .PHONY : Acwing799.obj
@@ -2126,6 +2152,54 @@ circulate/P5722.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5722.dir\build.make CMakeFiles/P5722.dir/circulate/P5722.cpp.s
 .PHONY : circulate/P5722.cpp.s
 
+dp/P1216.obj: dp/P1216.cpp.obj
+.PHONY : dp/P1216.obj
+
+# target to build an object file
+dp/P1216.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1216.dir\build.make CMakeFiles/P1216.dir/dp/P1216.cpp.obj
+.PHONY : dp/P1216.cpp.obj
+
+dp/P1216.i: dp/P1216.cpp.i
+.PHONY : dp/P1216.i
+
+# target to preprocess a source file
+dp/P1216.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1216.dir\build.make CMakeFiles/P1216.dir/dp/P1216.cpp.i
+.PHONY : dp/P1216.cpp.i
+
+dp/P1216.s: dp/P1216.cpp.s
+.PHONY : dp/P1216.s
+
+# target to generate assembly for a file
+dp/P1216.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1216.dir\build.make CMakeFiles/P1216.dir/dp/P1216.cpp.s
+.PHONY : dp/P1216.cpp.s
+
+dp/P1616.obj: dp/P1616.cpp.obj
+.PHONY : dp/P1616.obj
+
+# target to build an object file
+dp/P1616.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1616.dir\build.make CMakeFiles/P1616.dir/dp/P1616.cpp.obj
+.PHONY : dp/P1616.cpp.obj
+
+dp/P1616.i: dp/P1616.cpp.i
+.PHONY : dp/P1616.i
+
+# target to preprocess a source file
+dp/P1616.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1616.dir\build.make CMakeFiles/P1616.dir/dp/P1616.cpp.i
+.PHONY : dp/P1616.cpp.i
+
+dp/P1616.s: dp/P1616.cpp.s
+.PHONY : dp/P1616.s
+
+# target to generate assembly for a file
+dp/P1616.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1616.dir\build.make CMakeFiles/P1616.dir/dp/P1616.cpp.s
+.PHONY : dp/P1616.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -2167,6 +2241,7 @@ help:
 	@echo ... P1143
 	@echo ... P1157
 	@echo ... P1162
+	@echo ... P1216
 	@echo ... P1217
 	@echo ... P1219
 	@echo ... P1319
@@ -2176,6 +2251,7 @@ help:
 	@echo ... P1443
 	@echo ... P1506
 	@echo ... P1554
+	@echo ... P1616
 	@echo ... P1807
 	@echo ... P1866
 	@echo ... P1888
@@ -2375,6 +2451,12 @@ help:
 	@echo ... circulate/P5722.obj
 	@echo ... circulate/P5722.i
 	@echo ... circulate/P5722.s
+	@echo ... dp/P1216.obj
+	@echo ... dp/P1216.i
+	@echo ... dp/P1216.s
+	@echo ... dp/P1616.obj
+	@echo ... dp/P1616.i
+	@echo ... dp/P1616.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
