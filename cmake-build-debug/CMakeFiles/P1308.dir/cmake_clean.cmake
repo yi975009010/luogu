@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/P1308.dir/str/P1308.cpp.obj"
+  "CMakeFiles/P1308.dir/test2/P1308.cpp.obj"
+  "CMakeFiles/P1308.dir/test2/P1308.cpp.obj.d"
   "P1308.exe"
   "P1308.exe.manifest"
   "P1308.pdb"

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/P5719.dir/circulate/P5719.cpp.obj"
+  "CMakeFiles/P5719.dir/circulate/P5719.cpp.obj.d"
   "P5719.exe"
   "P5719.exe.manifest"
   "P5719.pdb"

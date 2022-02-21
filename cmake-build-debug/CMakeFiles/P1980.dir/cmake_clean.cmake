@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/P1980.dir/circulate/P1980.cpp.obj"
+  "CMakeFiles/P1980.dir/circulate/P1980.cpp.obj.d"
   "P1980.exe"
   "P1980.exe.manifest"
   "P1980.pdb"

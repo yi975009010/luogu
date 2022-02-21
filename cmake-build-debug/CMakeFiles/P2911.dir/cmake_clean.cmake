@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/P2911.dir/P2911.cpp.obj"
+  "CMakeFiles/P2911.dir/P2911.cpp.obj.d"
   "P2911.exe"
   "P2911.exe.manifest"
   "P2911.pdb"

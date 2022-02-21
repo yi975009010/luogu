@@ -1,3 +1,3 @@
-"D:\Program Files\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\P1162.dir/objects.a
-C:\MinGW\mingw64\bin\ar.exe cr CMakeFiles\P1162.dir/objects.a @CMakeFiles\P1162.dir\objects1.rsp
-C:\MinGW\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\P1162.dir/objects.a -Wl,--no-whole-archive -o P1162.exe -Wl,--out-implib,libP1162.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\P1162.dir\linklibs.rsp
+"D:\Program Files\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\P1162.dir/objects.a
+"D:\Program Files\CLion 2021.3.2\bin\mingw\bin\ar.exe" qc CMakeFiles\P1162.dir/objects.a @CMakeFiles\P1162.dir\objects1.rsp
+"D:\Program Files\CLion 2021.3.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\P1162.dir/objects.a -Wl,--no-whole-archive -o P1162.exe -Wl,--out-implib,libP1162.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\P1162.dir\linklibs.rsp

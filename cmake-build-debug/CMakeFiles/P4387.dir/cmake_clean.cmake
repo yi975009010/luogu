@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/P4387.dir/P4387.cpp.obj"
+  "CMakeFiles/P4387.dir/P4387.cpp.obj.d"
   "P4387.exe"
   "P4387.exe.manifest"
   "P4387.pdb"
