@@ -740,6 +740,19 @@ P1046/fast:
 .PHONY : P1046/fast
 
 #=============================================================================
+# Target rules for targets named P1059
+
+# Build rule for target.
+P1059: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1059
+.PHONY : P1059
+
+# fast build rule for target.
+P1059/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1059.dir\build.make CMakeFiles/P1059.dir/build
+.PHONY : P1059/fast
+
+#=============================================================================
 # Target rules for targets named P5716
 
 # Build rule for target.
@@ -946,6 +959,19 @@ Frog1: cmake_check_build_system
 Frog1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Frog1.dir\build.make CMakeFiles/Frog1.dir/build
 .PHONY : Frog1/fast
+
+#=============================================================================
+# Target rules for targets named P1781
+
+# Build rule for target.
+P1781: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1781
+.PHONY : P1781
+
+# fast build rule for target.
+P1781/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1781.dir\build.make CMakeFiles/P1781.dir/build
+.PHONY : P1781/fast
 
 Acwing799.obj: Acwing799.cpp.obj
 .PHONY : Acwing799.obj
@@ -2363,6 +2389,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sort/P1059_.obj: sort/P1059_.cpp.obj
+.PHONY : sort/P1059_.obj
+
+# target to build an object file
+sort/P1059_.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1059.dir\build.make CMakeFiles/P1059.dir/sort/P1059_.cpp.obj
+.PHONY : sort/P1059_.cpp.obj
+
+sort/P1059_.i: sort/P1059_.cpp.i
+.PHONY : sort/P1059_.i
+
+# target to preprocess a source file
+sort/P1059_.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1059.dir\build.make CMakeFiles/P1059.dir/sort/P1059_.cpp.i
+.PHONY : sort/P1059_.cpp.i
+
+sort/P1059_.s: sort/P1059_.cpp.s
+.PHONY : sort/P1059_.s
+
+# target to generate assembly for a file
+sort/P1059_.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1059.dir\build.make CMakeFiles/P1059.dir/sort/P1059_.cpp.s
+.PHONY : sort/P1059_.cpp.s
+
 sort/P1271.obj: sort/P1271.cpp.obj
 .PHONY : sort/P1271.obj
 
@@ -2386,6 +2436,30 @@ sort/P1271.s: sort/P1271.cpp.s
 sort/P1271.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1271.dir\build.make CMakeFiles/P1271.dir/sort/P1271.cpp.s
 .PHONY : sort/P1271.cpp.s
+
+sort/P1781.obj: sort/P1781.cpp.obj
+.PHONY : sort/P1781.obj
+
+# target to build an object file
+sort/P1781.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1781.dir\build.make CMakeFiles/P1781.dir/sort/P1781.cpp.obj
+.PHONY : sort/P1781.cpp.obj
+
+sort/P1781.i: sort/P1781.cpp.i
+.PHONY : sort/P1781.i
+
+# target to preprocess a source file
+sort/P1781.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1781.dir\build.make CMakeFiles/P1781.dir/sort/P1781.cpp.i
+.PHONY : sort/P1781.cpp.i
+
+sort/P1781.s: sort/P1781.cpp.s
+.PHONY : sort/P1781.s
+
+# target to generate assembly for a file
+sort/P1781.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1781.dir\build.make CMakeFiles/P1781.dir/sort/P1781.cpp.s
+.PHONY : sort/P1781.cpp.s
 
 sort/P1923.obj: sort/P1923.cpp.obj
 .PHONY : sort/P1923.obj
@@ -2498,6 +2572,7 @@ help:
 	@echo ... P1047
 	@echo ... P1048
 	@echo ... P1055
+	@echo ... P1059
 	@echo ... P1085
 	@echo ... P1125
 	@echo ... P1143
@@ -2516,6 +2591,7 @@ help:
 	@echo ... P1506
 	@echo ... P1554
 	@echo ... P1616
+	@echo ... P1781
 	@echo ... P1802
 	@echo ... P1807
 	@echo ... P1866
@@ -2732,9 +2808,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sort/P1059_.obj
+	@echo ... sort/P1059_.i
+	@echo ... sort/P1059_.s
 	@echo ... sort/P1271.obj
 	@echo ... sort/P1271.i
 	@echo ... sort/P1271.s
+	@echo ... sort/P1781.obj
+	@echo ... sort/P1781.i
+	@echo ... sort/P1781.s
 	@echo ... sort/P1923.obj
 	@echo ... sort/P1923.i
 	@echo ... sort/P1923.s

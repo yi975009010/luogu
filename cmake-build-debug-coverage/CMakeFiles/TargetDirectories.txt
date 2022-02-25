@@ -46,6 +46,7 @@ C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/C
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/CMakeFiles/P5713.dir
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/CMakeFiles/P5714.dir
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/CMakeFiles/P1046.dir
+C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/CMakeFiles/P1059.dir
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/CMakeFiles/P5716.dir
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/CMakeFiles/P5719.dir
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/CMakeFiles/P1085.dir
@@ -62,5 +63,6 @@ C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/C
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/CMakeFiles/P1427.dir
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/CMakeFiles/P1616.dir
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/CMakeFiles/Frog1.dir
+C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/CMakeFiles/P1781.dir
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
 C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
