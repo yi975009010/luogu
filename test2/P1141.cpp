@@ -7,6 +7,7 @@ bool vis[N][N];
 int n,m;
 int dx[4]={0,1,0,-1};
 int dy[4]={1,0,-1,0};
+int ans[100005];
 
 //判断边界
 bool check(int x,int y){

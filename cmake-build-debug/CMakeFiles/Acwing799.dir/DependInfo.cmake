@@ -4,18 +4,20 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/Acwing799.cpp" "C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/CMakeFiles/Acwing799.dir/Acwing799.cpp.obj"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Administrator/CLionProjects/luogu/Acwing799.cpp" "CMakeFiles/Acwing799.dir/Acwing799.cpp.obj" "gcc" "CMakeFiles/Acwing799.dir/Acwing799.cpp.obj.d"
-  "C:/Users/Administrator/CLionProjects/luogu/MinTree/P1396.cpp" "CMakeFiles/Acwing799.dir/MinTree/P1396.cpp.obj" "gcc" "CMakeFiles/Acwing799.dir/MinTree/P1396.cpp.obj.d"
-  "C:/Users/Administrator/CLionProjects/luogu/function/P5461.cpp" "CMakeFiles/Acwing799.dir/function/P5461.cpp.obj" "gcc" "CMakeFiles/Acwing799.dir/function/P5461.cpp.obj.d"
-  "C:/Users/Administrator/CLionProjects/luogu/test2/P1012.cpp" "CMakeFiles/Acwing799.dir/test2/P1012.cpp.obj" "gcc" "CMakeFiles/Acwing799.dir/test2/P1012.cpp.obj.d"
-  "C:/Users/Administrator/CLionProjects/luogu/test2/P1141.cpp" "CMakeFiles/Acwing799.dir/test2/P1141.cpp.obj" "gcc" "CMakeFiles/Acwing799.dir/test2/P1141.cpp.obj.d"
-  "C:/Users/Administrator/CLionProjects/luogu/test2/P1192.cpp" "CMakeFiles/Acwing799.dir/test2/P1192.cpp.obj" "gcc" "CMakeFiles/Acwing799.dir/test2/P1192.cpp.obj.d"
-  "C:/Users/Administrator/CLionProjects/luogu/test2/P1308.cpp" "CMakeFiles/Acwing799.dir/test2/P1308.cpp.obj" "gcc" "CMakeFiles/Acwing799.dir/test2/P1308.cpp.obj.d"
-  "C:/Users/Administrator/CLionProjects/luogu/test2/P1656.cpp" "CMakeFiles/Acwing799.dir/test2/P1656.cpp.obj" "gcc" "CMakeFiles/Acwing799.dir/test2/P1656.cpp.obj.d"
   )
 
 # Targets to which this target links.

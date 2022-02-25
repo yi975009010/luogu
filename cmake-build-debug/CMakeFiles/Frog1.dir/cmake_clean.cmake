@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Frog1.dir/Frog1.cpp.obj"
-  "CMakeFiles/Frog1.dir/Frog1.cpp.obj.d"
   "Frog1.exe"
   "Frog1.exe.manifest"
   "Frog1.pdb"

@@ -1,3 +1,3 @@
-"D:\Program Files\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Acwing799.dir/objects.a
-"D:\Program Files\CLion 2021.3.2\bin\mingw\bin\ar.exe" qc CMakeFiles\Acwing799.dir/objects.a @CMakeFiles\Acwing799.dir\objects1.rsp
-"D:\Program Files\CLion 2021.3.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\Acwing799.dir/objects.a -Wl,--no-whole-archive -o Acwing799.exe -Wl,--out-implib,libAcwing799.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Acwing799.dir\linklibs.rsp
+"D:\Program Files\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Acwing799.dir/objects.a
+C:\MinGW\mingw64\bin\ar.exe cr CMakeFiles\Acwing799.dir/objects.a @CMakeFiles\Acwing799.dir\objects1.rsp
+C:\MinGW\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Acwing799.dir/objects.a -Wl,--no-whole-archive -o Acwing799.exe -Wl,--out-implib,libAcwing799.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Acwing799.dir\linklibs.rsp

@@ -4,11 +4,20 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/branch/P1046.cpp" "C:/Users/lenovo.DESKTOP-FH6F75H/CLionProjects/luogu/cmake-build-debug/CMakeFiles/P1046.dir/branch/P1046.cpp.obj"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Administrator/CLionProjects/luogu/branch/P1046.cpp" "CMakeFiles/P1046.dir/branch/P1046.cpp.obj" "gcc" "CMakeFiles/P1046.dir/branch/P1046.cpp.obj.d"
   )
 
 # Targets to which this target links.

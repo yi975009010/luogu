@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/P2872.dir/P2872.cpp.obj"
-  "CMakeFiles/P2872.dir/P2872.cpp.obj.d"
   "P2872.exe"
   "P2872.exe.manifest"
   "P2872.pdb"

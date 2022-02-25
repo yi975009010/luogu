@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/P1554.dir/P1554.cpp.obj"
-  "CMakeFiles/P1554.dir/P1554.cpp.obj.d"
   "P1554.exe"
   "P1554.exe.manifest"
   "P1554.pdb"

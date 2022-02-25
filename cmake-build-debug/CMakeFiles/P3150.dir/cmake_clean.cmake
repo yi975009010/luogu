@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/P3150.dir/P3150.cpp.obj"
-  "CMakeFiles/P3150.dir/P3150.cpp.obj.d"
   "P3150.exe"
   "P3150.exe.manifest"
   "P3150.pdb"

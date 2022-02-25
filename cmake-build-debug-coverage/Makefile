@@ -116,19 +116,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
 # Target rules for targets named P2249
 
 # Build rule for target.
@@ -140,6 +127,19 @@ P2249: cmake_check_build_system
 P2249/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2249.dir\build.make CMakeFiles/P2249.dir/build
 .PHONY : P2249/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 #=============================================================================
 # Target rules for targets named P1048
@@ -155,19 +155,6 @@ P1048/fast:
 .PHONY : P1048/fast
 
 #=============================================================================
-# Target rules for targets named P5718
-
-# Build rule for target.
-P5718: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5718
-.PHONY : P5718
-
-# fast build rule for target.
-P5718/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5718.dir\build.make CMakeFiles/P5718.dir/build
-.PHONY : P5718/fast
-
-#=============================================================================
 # Target rules for targets named P1866
 
 # Build rule for target.
@@ -179,6 +166,19 @@ P1866: cmake_check_build_system
 P1866/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1866.dir\build.make CMakeFiles/P1866.dir/build
 .PHONY : P1866/fast
+
+#=============================================================================
+# Target rules for targets named P5718
+
+# Build rule for target.
+P5718: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5718
+.PHONY : P5718
+
+# fast build rule for target.
+P5718/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5718.dir\build.make CMakeFiles/P5718.dir/build
+.PHONY : P5718/fast
 
 #=============================================================================
 # Target rules for targets named P5707
@@ -376,6 +376,19 @@ P2615/fast:
 .PHONY : P2615/fast
 
 #=============================================================================
+# Target rules for targets named P1271
+
+# Build rule for target.
+P1271: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1271
+.PHONY : P1271
+
+# fast build rule for target.
+P1271/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1271.dir\build.make CMakeFiles/P1271.dir/build
+.PHONY : P1271/fast
+
+#=============================================================================
 # Target rules for targets named P1125
 
 # Build rule for target.
@@ -558,19 +571,6 @@ P1162/fast:
 .PHONY : P1162/fast
 
 #=============================================================================
-# Target rules for targets named P5721
-
-# Build rule for target.
-P5721: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5721
-.PHONY : P5721
-
-# fast build rule for target.
-P5721/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5721.dir\build.make CMakeFiles/P5721.dir/build
-.PHONY : P5721/fast
-
-#=============================================================================
 # Target rules for targets named P5318
 
 # Build rule for target.
@@ -582,6 +582,19 @@ P5318: cmake_check_build_system
 P5318/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5318.dir\build.make CMakeFiles/P5318.dir/build
 .PHONY : P5318/fast
+
+#=============================================================================
+# Target rules for targets named P5721
+
+# Build rule for target.
+P5721: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P5721
+.PHONY : P5721
+
+# fast build rule for target.
+P5721/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5721.dir\build.make CMakeFiles/P5721.dir/build
+.PHONY : P5721/fast
 
 #=============================================================================
 # Target rules for targets named P1807
@@ -829,6 +842,19 @@ P1980: cmake_check_build_system
 P1980/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1980.dir\build.make CMakeFiles/P1980.dir/build
 .PHONY : P1980/fast
+
+#=============================================================================
+# Target rules for targets named P1923
+
+# Build rule for target.
+P1923: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P1923
+.PHONY : P1923
+
+# fast build rule for target.
+P1923/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1923.dir\build.make CMakeFiles/P1923.dir/build
+.PHONY : P1923/fast
 
 #=============================================================================
 # Target rules for targets named P1035
@@ -2337,6 +2363,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sort/P1271.obj: sort/P1271.cpp.obj
+.PHONY : sort/P1271.obj
+
+# target to build an object file
+sort/P1271.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1271.dir\build.make CMakeFiles/P1271.dir/sort/P1271.cpp.obj
+.PHONY : sort/P1271.cpp.obj
+
+sort/P1271.i: sort/P1271.cpp.i
+.PHONY : sort/P1271.i
+
+# target to preprocess a source file
+sort/P1271.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1271.dir\build.make CMakeFiles/P1271.dir/sort/P1271.cpp.i
+.PHONY : sort/P1271.cpp.i
+
+sort/P1271.s: sort/P1271.cpp.s
+.PHONY : sort/P1271.s
+
+# target to generate assembly for a file
+sort/P1271.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1271.dir\build.make CMakeFiles/P1271.dir/sort/P1271.cpp.s
+.PHONY : sort/P1271.cpp.s
+
+sort/P1923.obj: sort/P1923.cpp.obj
+.PHONY : sort/P1923.obj
+
+# target to build an object file
+sort/P1923.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1923.dir\build.make CMakeFiles/P1923.dir/sort/P1923.cpp.obj
+.PHONY : sort/P1923.cpp.obj
+
+sort/P1923.i: sort/P1923.cpp.i
+.PHONY : sort/P1923.i
+
+# target to preprocess a source file
+sort/P1923.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1923.dir\build.make CMakeFiles/P1923.dir/sort/P1923.cpp.i
+.PHONY : sort/P1923.cpp.i
+
+sort/P1923.s: sort/P1923.cpp.s
+.PHONY : sort/P1923.s
+
+# target to generate assembly for a file
+sort/P1923.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P1923.dir\build.make CMakeFiles/P1923.dir/sort/P1923.cpp.s
+.PHONY : sort/P1923.cpp.s
+
 str/P1125.obj: str/P1125.cpp.obj
 .PHONY : str/P1125.obj
 
@@ -2432,6 +2506,7 @@ help:
 	@echo ... P1216
 	@echo ... P1217
 	@echo ... P1219
+	@echo ... P1271
 	@echo ... P1308
 	@echo ... P1319
 	@echo ... P1422
@@ -2446,6 +2521,7 @@ help:
 	@echo ... P1866
 	@echo ... P1888
 	@echo ... P1909
+	@echo ... P1923
 	@echo ... P1957
 	@echo ... P1980
 	@echo ... P2043
@@ -2656,6 +2732,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sort/P1271.obj
+	@echo ... sort/P1271.i
+	@echo ... sort/P1271.s
+	@echo ... sort/P1923.obj
+	@echo ... sort/P1923.i
+	@echo ... sort/P1923.s
 	@echo ... str/P1125.obj
 	@echo ... str/P1125.i
 	@echo ... str/P1125.s

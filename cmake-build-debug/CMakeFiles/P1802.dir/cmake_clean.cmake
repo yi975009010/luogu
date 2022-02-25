@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/P1802.dir/dp/P1802.cpp.obj"
-  "CMakeFiles/P1802.dir/dp/P1802.cpp.obj.d"
   "P1802.exe"
   "P1802.exe.manifest"
   "P1802.pdb"
